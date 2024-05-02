@@ -53,13 +53,18 @@
      * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
      */
     "packageManager": "teambit.dependencies/pnpm",
-    "rootComponents": true,
     "policy": {
       "dependencies": {
-        "@types/node": "16.18.44",
-        "@types/jest": "29.5.4"
-      }
-    }
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@mui/material": "^5.15.16",
+        "@types/jest": "29.5.4",
+        "@types/node": "16.18.44"
+      },
+      "peerDependencies": {}
+    },
+    "linkCoreAspects": true,
+    "rootComponents": true
   },
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true

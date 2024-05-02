@@ -9,5 +9,40 @@
  */
 
 {
+    "actions/button": {
+        "name": "actions/button",
+        "scope": "learnbit-react.custom-mui-lib",
+        "version": "0.0.6",
+        "mainFile": "index.ts",
+        "rootDir": "custom-mui-lib/actions/button"
+    },
+    "theme/create-theme": {
+        "name": "theme/create-theme",
+        "scope": "learnbit-react.custom-mui-lib",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "custom-mui-lib/theme/create-theme"
+    },
+    "theme/default-theme": {
+        "name": "theme/default-theme",
+        "scope": "learnbit-react.custom-mui-lib",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "custom-mui-lib/theme/default-theme"
+    },
+    "theme/theme-provider": {
+        "name": "theme/theme-provider",
+        "scope": "learnbit-react.custom-mui-lib",
+        "version": "0.0.6",
+        "mainFile": "index.ts",
+        "rootDir": "custom-mui-lib/theme/theme-provider"
+    },
+    "typography/get-default-fonts": {
+        "name": "typography/get-default-fonts",
+        "scope": "learnbit-react.custom-mui-lib",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "custom-mui-lib/typography/get-default-fonts"
+    },
     "$schema-version": "17.0.0"
 }
